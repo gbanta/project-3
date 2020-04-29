@@ -63,7 +63,7 @@ let findAllbitBatBotOrNots4 = (arr) => {
   return result;
 };
 
-//part g
+//extra credit
 let findAllbitBatBotOrNotsXC = (arr) => {
   let result = [];
   for (let index in arr) {

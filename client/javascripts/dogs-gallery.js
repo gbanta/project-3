@@ -10,9 +10,13 @@ let failHandler = () => {
 let clickHandler = function () {
   let imgElem;
   let prefixURL = "https://dog.ceo/api/breed/";
-  let suffixURL = "/images";
+  let suffixURL = "/images/random/6";
   //get value entered by user from textbox
   let breedTag = document.querySelector('input[type = "text"]').value;
+  if (breedTag.indexOf(" ") >= 0) {
+    let splitTag = breedTag.split(" ");
+    breedTag = `${splitTag[1]}/${splitTag[0]}`;
+  }
   let requestURL = prefixURL + breedTag + suffixURL;
   console.log(requestURL);
 
