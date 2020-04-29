@@ -12,7 +12,7 @@ let clickHandler = function () {
   let prefixURL = "https://dog.ceo/api/breed/";
   let suffixURL = "/images/random/6";
   //get value entered by user from textbox
-  let breedTag = document.querySelector('input[type = "text"]').value;
+  let breedTag = document.querySelector('input[type = "text"]').value.trim();
   if (breedTag.indexOf(" ") >= 0) {
     let splitTag = breedTag.split(" ");
     breedTag = `${splitTag[1]}/${splitTag[0]}`;
