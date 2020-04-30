@@ -1,6 +1,6 @@
 # Project 3 Repo
 
-[Link to my User Page](https://gbanta/github.io)
+[Link to my User Page](https://gbanta.github.io)
 
 ## 281 Project 3 Learning Outcomes
 
